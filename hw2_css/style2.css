@@ -91,8 +91,6 @@ img#logo{
 
 .content{
 	border-bottom: 1px solid #DDDDDD;
-	padding-bottom: 5px;
-
 }
 
 .main{
@@ -138,18 +136,19 @@ p{
 	clear: both;
 }
 
-.footer{
+.menu{
 	padding-top: 15px;
 	padding-left: 2px;
+	height: 292px;
+	border-top: 1px solid #DDDDDD;
 }
 
-.footer li{
+.menu li{
 	float: left;
 	width: 260px;
-
 }
 
-.footer li a{
+.menu li a{
 	height: 258px;
 	text-align:center;
 	display:block;
@@ -164,7 +163,7 @@ p{
 	border-radius: 10px;
 }
 
-.footer li a:hover{
+.menu li a:hover{
 	background-repeat:no-repeat;
 	background-image: url(../pic/temp.png);
 	border-radius: 10px;
@@ -175,7 +174,6 @@ h2{
  	color: #666666;
  	font-size: 18px;
  	font-family: Arial;
-
 }
 
 .gray{
