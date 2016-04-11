@@ -89,10 +89,6 @@ img#logo{
 	color: #AAAAAA;
 }
 
-.content{
-	border-bottom: 1px solid #DDDDDD;
-}
-
 .main{
 	float: left;
 	padding-top: 10px;
@@ -145,27 +141,35 @@ p{
 
 .menu li{
 	float: left;
-	width: 260px;
-}
-
-.menu li a{
+	width: 239px;
 	height: 258px;
+	border: 1px solid #CCDDFF;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(white,#CCDDFF);
+	background: -o-linear-gradient(white,#CCDDFF);
+	background: -moz-linear-gradient(white,#CCDDFF);
+	background: linear-gradient(white,#CCDDFF);
+	/*background-repeat:no-repeat;
+	background-image: url(../pic/temp_017.png);*/
 	text-align:center;
-	display:block;
-	text-decoration: none;
-	list-style-type: none;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	padding-top: 12px;
-	background-repeat:no-repeat;
-	background-image: url(../pic/temp_017.png);
-	border: 1px solid #CCDDFF;
-	border-radius: 10px;
 }
 
-.menu li a:hover{
-	background-repeat:no-repeat;
-	background-image: url(../pic/temp.png);
+.menu li a{
+	display:block;
+	text-decoration: none;
+	list-style-type: none;	
+}
+
+.menu li:hover{
+	background: -webkit-linear-gradient(white,#DDDDDD);
+	background: -o-linear-gradient(white,#DDDDDD);
+	background: -moz-linear-gradient(white,#DDDDDD);
+	background: linear-gradient(white,#DDDDDD);
+	/*background-repeat:no-repeat;
+	background-image: url(../pic/temp.png);*/
 	border-radius: 10px;
 	border: 1px solid #DDDDDD;
 }
